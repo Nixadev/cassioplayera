@@ -1,0 +1,33 @@
+$bg: #040404;
+$basic: #D7D9CE;
+$scnd: #02fd09;
+$thrd: #0C7489;
+$frth: #13505B;
+$mg: 2vw;
+* {
+    background: $bg;
+    color: $basic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+hr{
+    border: 0;
+    color: $scnd;
+    background-color: $scnd;
+    height: 2px;
+    border-radius: 5px;
+
+}
+.container1,.container2{
+    display: flex;
+    padding-inline: $mg;
+    gap: $mg;
+}
+.container1 {
+    flex-direction: row-reverse;
+}
+.container2 {
+    flex-direction: row;
+}
+h3 {
+    margin: $mg;
+}

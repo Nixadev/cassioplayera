@@ -1,0 +1,31 @@
+* {
+  background: #040404;
+  color: #D7D9CE;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr {
+  border: 0;
+  color: #02fd09;
+  background-color: #02fd09;
+  height: 2px;
+  border-radius: 5px;
+}
+
+.container1, .container2 {
+  display: flex;
+  padding-inline: 2vw;
+  gap: 2vw;
+}
+
+.container1 {
+  flex-direction: row-reverse;
+}
+
+.container2 {
+  flex-direction: row;
+}
+
+h3 {
+  margin: 2vw;
+}/*# sourceMappingURL=next.css.map */
