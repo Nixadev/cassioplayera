@@ -31,3 +31,9 @@ hr{
 h3 {
     margin: $mg;
 }
+
+@media screen and (min-width: 600px) {
+    .container1, .container2 {
+        flex-direction: column;
+    }
+}
